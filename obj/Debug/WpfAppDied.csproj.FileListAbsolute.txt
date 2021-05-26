@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\WpfAppDied\bin\Debug\WpfAppDied.exe.config
+C:\Users\User\source\repos\WpfAppDied\bin\Debug\WpfAppDied.exe
+C:\Users\User\source\repos\WpfAppDied\bin\Debug\WpfAppDied.pdb
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\App.g.cs
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied_MarkupCompile.cache
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied_MarkupCompile.lref
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.g.resources
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.Properties.Resources.resources
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.exe
+C:\Users\User\source\repos\WpfAppDied\obj\Debug\WpfAppDied.pdb

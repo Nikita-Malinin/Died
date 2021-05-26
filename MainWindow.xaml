@@ -1,0 +1,67 @@
+﻿<Window x:Class="WpfAppDied.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDied"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+
+        <Image
+            Source="C:\Users\User\source\repos\WpfAppDied\screen\train.png"
+            Grid.RowSpan="2"/>
+
+        <StackPanel 
+        Orientation="Vertical"
+        Grid.RowSpan="3"
+        VerticalAlignment="Bottom">
+            <Button 
+            x:Name="ExitButton"
+            Content="Выход" 
+            Click="ExitButton_Click"
+            Height="50"/>
+        </StackPanel>
+
+        <WrapPanel
+        Orientation="Horizontal"
+        Grid.Column="1"
+        MinHeight="50">
+            <DataGrid
+        Grid.Row="1"
+        Grid.Column="1"
+        CanUserAddRows="False"
+        AutoGenerateColumns="False"
+        ItemsSource="{Binding TrainList}" SelectionChanged="DataGrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn
+             Header="Поезд"
+                Binding="{Binding Type }"/>
+                    <DataGridTextColumn
+             Header="Номер поезда"
+                Binding="{Binding Number}"/>
+                    <DataGridTextColumn
+             Header="Скорость поезда"
+                Binding="{Binding Speed}"/>
+                    <DataGridTextColumn
+             Header="Дата отправления"
+                Binding="{Binding TimeFrom }"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+            <!-- минимальную высоту я тут поставил, чтобы верхнюю строку сетки было видно. В реальном приложении она не нужна -->
+        </WrapPanel>
+    </Grid>
+  
+</Window>
